@@ -1,4 +1,4 @@
-AddEventHandler("playerSpawned", function(spawn)
+AddEventHandler("playerSpawned", function()
 	SetCanAttackFriendly(GetPlayerPed(-1), true, false)
 	NetworkSetFriendlyFireOption(true)
 end)
